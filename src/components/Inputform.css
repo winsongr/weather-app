@@ -1,0 +1,37 @@
+.inputbox {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.inputfield {
+  padding: 10%;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.12), 0 2px 3px;
+  padding-top: 0;
+  padding-bottom: 50px;
+  margin: 20px;
+}
+
+.inputfield > h1 {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
+/* .plac{
+    margin-bottom: 15px;
+} */
+.inputfield > img {
+  width: 20%;
+  height: 30%;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.inputfield > form > button {
+  margin-top: 30px !important;
+  text-transform: inherit !important;
+  color: white;
+}
